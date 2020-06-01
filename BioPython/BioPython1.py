@@ -6,7 +6,10 @@ from Bio.Alphabet import IUPAC
 
 '''1. Creates coding strand object for coding DNA strand
    2. Transcription of coding DNA strand to mRNA
-   3. Translation of mRNA to amino acid sequence'''
+   3. Translation of mRNA to amino acid sequence
+
+   Also don't forget DNA is double stranded where the other strand is
+   the reverse complement of the other. Whereas RNA is single stranded.'''
 
 #DNA strand: ATGTTACACTCCCGATGA
 
